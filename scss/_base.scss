@@ -1,0 +1,28 @@
+
+// Modules
+@import "../../../sass/modules/colors";
+
+// Base Font
+//$base-font-family: Georgia, Times, "Times New Roman", serif;
+$base-font-family: "OpenSansRegular", Helvetica, Arial, sans-serif;
+$base-font-size: 100%;
+$base-font-weight: normal;
+$base-line-height: 1.5;
+$color-main: $color-grey80;  
+$base-font-color: $color-main;
+$color-accent: #000; 
+
+// Partials
+@import "../../../sass/partials/reset"; 
+@import "../../../sass/partials/html5";
+@import "../../../sass/partials/media";
+@import "../../../sass/partials/clearfix";
+//@import "../../../sass/partials/buttons";
+@import "../../../sass/partials/typography-simple"; 
+
+// Layout
+@import "../../../sass/partials/layout/grid-simple";
+@import "../../../sass/partials/layout/grid-image"; 
+
+
+
